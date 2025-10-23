@@ -225,7 +225,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/kianbabai/GenKey/issues)
 - 💡 **Feature Requests**: [GitHub Discussions](https://github.com/kianbabai/GenKey/discussions)
-- 📧 **Contact**: [kianbabai@github.com](mailto:kianbabai@github.com)
+- 📧 **Contact**: [kianbabai@github.com](mailto:kianbabai@gmail.com)
 
 ## 🌟 Show Your Support
 
@@ -238,7 +238,7 @@ If you find this extension useful, please give it a ⭐ on GitHub!
 **Made with ❤️ by [Kian Babai](https://github.com/kianbabai)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kianbabai)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kianbabai)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kianbabai)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kian-babai/)
+
 
 </div>
