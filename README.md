@@ -225,7 +225,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/kianbabai/GenKey/issues)
 - 💡 **Feature Requests**: [GitHub Discussions](https://github.com/kianbabai/GenKey/discussions)
-- 📧 **Contact**: [kianbabai@github.com](mailto:kianbabai@gmail.com)
+- 📧 **Contact**: [kian.babai.09@gmail.com](mailto:kian.babai.09@gmail.com)
 
 ## 🌟 Show Your Support
 
