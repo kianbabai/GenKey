@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GenKey Generator</h1>
+        
+        <!-- Password Generator -->
+        <div class="section">
+            <h2>Password Generator</h2>
+            <div class="controls">
+                <label>
+                    Length: <input type="number" id="passwordLength" value="16" min="4" max="128">
+                </label>
+                <label>
+                    <input type="checkbox" id="includeUppercase" checked> Uppercase
+                </label>
+                <label>
+                    <input type="checkbox" id="includeLowercase" checked> Lowercase
+                </label>
+                <label>
+                    <input type="checkbox" id="includeNumbers" checked> Numbers
+                </label>
+                <label>
+                    <input type="checkbox" id="includeSymbols" checked> Symbols
+                </label>
+            </div>
+            <div class="result-container">
+                <input type="text" id="passwordResult" readonly>
+                <button id="generatePassword">Generate</button>
+                <button id="copyPassword">Copy</button>
+            </div>
+        </div>
+
+        <!-- UUID Generator -->
+        <div class="section">
+            <h2>UUID Generator</h2>
+            <div class="controls">
+                <label>
+                    <input type="radio" name="uuidType" value="v4" checked> UUID v4 (Random)
+                </label>
+                <label>
+                    <input type="radio" name="uuidType" value="v1"> UUID v1 (Timestamp)
+                </label>
+            </div>
+            <div class="result-container">
+                <input type="text" id="uuidResult" readonly>
+                <button id="generateUuid">Generate</button>
+                <button id="copyUuid">Copy</button>
+            </div>
+        </div>
+
+        <!-- API Key Generator -->
+        <div class="section">
+            <h2>API Key Generator</h2>
+            <div class="controls">
+                <label>
+                    Length: <input type="number" id="apiKeyLength" value="32" min="8" max="128">
+                </label>
+                <label>
+                    <input type="checkbox" id="includePrefix" checked> Include Prefix
+                </label>
+                <input type="text" id="apiPrefix" value="sk-" placeholder="Prefix (e.g., sk-)">
+            </div>
+            <div class="result-container">
+                <input type="text" id="apiKeyResult" readonly>
+                <button id="generateApiKey">Generate</button>
+                <button id="copyApiKey">Copy</button>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="section">
+            <h2>Quick Actions</h2>
+            <div class="quick-actions">
+                <button id="generateAll">Generate All</button>
+                <button id="copyAll">Copy All</button>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

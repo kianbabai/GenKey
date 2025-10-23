@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "GenKey - Password & Key Generator",
+    "version": "1.0",
+    "description": "Generate secure passwords, UUIDs, and API keys",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "GenKey Generator"
+    },
+    "icons": {
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
+    }
+}
